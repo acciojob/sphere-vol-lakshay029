@@ -3,7 +3,7 @@ function volume_sphere() {
     const volumeField = document.getElementById("volume");
 
     if (isNaN(radius) || radius < 0) {
-        volumeField.value = "";
+        volumeField.value = "NaN";
         return false;
     }
 
